@@ -58,13 +58,13 @@
 @media(max-width:1024px) {
 
     .newletter {
-        margin-bottom: 60px;
-        height: 35vh;
+        margin-bottom: 30px;
+        height: 20vh;
         
     }
 
     .newletter h1 {
-        font-size: 18px;
+        font-size: 16px;
     }
 
     .newletter p {
@@ -72,13 +72,13 @@
     }
 
     .newletter div {
-        width: 400px;
-        height: 40px;
+        width: 300px;
+        height: 30px;
     }
 
     .newletter div input {
         width: 200px;
-        font-size: 14px;
+        font-size: 13px;
     }
 
     .newletter div button{
@@ -89,9 +89,36 @@
 }
 
 
+@media(max-width:923px) {
 
+    .newletter {
+        height: 25vh;
+        width: 70%;
+        padding: 0px;
+        gap: 10px;
+    }
 
+    .newletter h1 {
+        font-size: 18px;
+    }
 
+    .newletter p {
+        font-size: 14px;
+        max-width: 200px;
+        text-align: center;
+    }
+
+    .newletter div {
+        width: 200px;
+        
+    }
+
+    .newletter div input {
+        width: 170px
+    }
+
+    
+}
 
 
 @media(max-width:500px) {

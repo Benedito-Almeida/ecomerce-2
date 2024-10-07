@@ -2,8 +2,9 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    height: 90vh;
-    gap: 10px
+    gap: 10px;
+    margin-bottom: -150px;
+    
 }
 
 .popular h1 {
@@ -27,26 +28,6 @@
 }
 
 
-@media(max-width:1024px) {
-
-    .popular {
-        height: 60vh;
-    }
-
-    .popular h1 {
-        font-size: 30px;
-    }
-
-    .popular hr {
-        width: 120px;
-        height: 3px;
-    }
-
-    .popular-item {
-        gap: 15px;
-        margin-top: 20px;
-    }
-}
 
 @media(max-width:800px) {
     .popular {
