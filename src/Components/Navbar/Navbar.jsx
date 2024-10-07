@@ -23,6 +23,7 @@ const Navbar = () => {
         <div className='navbar'>
             <div className='nav-logo'>
                 <img className='nav-dropdown' src={Logo} alt='logo' />
+                <img src={Logo} alt='logo' />
                 <p>SHOPPER</p>
             </div>
 
